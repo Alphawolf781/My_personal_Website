@@ -10,7 +10,7 @@ font-family: 'poppins', sans-serif;
 box-sizing: border-box;
 }
 
-#header {
+body {
     width: 100%;
     height: 100vh;
     background-image: url(./assets/image.png);
@@ -61,7 +61,7 @@ nav ul li a:hover::after{
 .header-text {
     margin-top: 10%;
     font-size: 30px;
-    margin-left: 0%;
+    margin-left: -8%;
 }
 
 .header-text h1 {
@@ -72,4 +72,13 @@ nav ul li a:hover::after{
 
 .header-text h1 span {
     color: #ff004f;
+}
+.header-text h3 {
+    margin-right: 20%;
+}
+.container nav span {
+    color: #ff004f;
+    font-size: 50px;
+    margin-left: -30%;
+    text-decoration: underline ;
 }
